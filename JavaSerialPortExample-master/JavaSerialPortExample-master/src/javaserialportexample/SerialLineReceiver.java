@@ -26,7 +26,7 @@ public class SerialLineReceiver implements SerialPortDataListener {
     private SerialPortLineListener listener = null;
     
     public SerialLineReceiver() {
-        this(0, 9600, false);
+        this(0, 115200, false);
     }
     
     public SerialLineReceiver(int comIndex, int baudrate, boolean enableDebugging) {
