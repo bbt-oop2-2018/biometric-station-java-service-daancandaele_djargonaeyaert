@@ -20,7 +20,8 @@ public class JavaSerialPortExample {
         receiver.setLineListener(new SerialPortLineListener() {
             @Override
             public void serialLineEvent(SerialData data) {
-                System.out.println("Received data from the serial port: " + data.getDataAsString());
+                DataSend message = new DataSend();
+                message.send(data);
             }
         });
     }
