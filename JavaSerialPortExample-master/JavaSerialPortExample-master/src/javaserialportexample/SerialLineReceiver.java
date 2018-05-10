@@ -10,10 +10,6 @@ import com.fazecast.jSerialComm.SerialPortDataListener;
 import com.fazecast.jSerialComm.SerialPortEvent;
 import java.util.Arrays;
 
-/**
- *
- * @author nicod
- */
 public class SerialLineReceiver implements SerialPortDataListener {
     
     private SerialPort comPort;
