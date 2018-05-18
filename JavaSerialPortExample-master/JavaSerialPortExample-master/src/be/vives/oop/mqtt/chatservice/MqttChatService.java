@@ -20,7 +20,7 @@ public class MqttChatService implements MqttCallback {
     private MqttConnectOptions connectionOptions;
     private IMqttMessageHandler messageHandler = null;
     
-    private final String BASE_TOPIC = "brol";
+    private final String BASE_TOPIC = "projectwerkdaandjargo";
     private String channelName;
     private String channelTopic;
     
